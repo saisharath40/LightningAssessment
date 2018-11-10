@@ -1,0 +1,14 @@
+<aura:component controller="CalendarController" implements="force:appHostable,flexipage:availableForRecordHome,force:lightningQuickAction" access="global" >
+	
+    <ltng:require styles="{!$Resource.FullCalendar     + '/fullcalendar-3.9.0/fullcalendar.css'}"
+                  scripts="{!join(',',
+                           $Resource.FullCalendar  + '/fullcalendar-3.9.0/lib/jquery.min.js',
+                           $Resource.FullCalendar  + '/fullcalendar-3.9.0/lib/moment.min.js',
+                           $Resource.FullCalendar  + '/fullcalendar-3.9.0/fullcalendar.js'
+                           )}" afterScriptsLoaded="{!c.afterScriptsLoaded}"
+                 />   
+    <aura:attribute name='Objectlist' type='Object[]'/>
+
+    <div id="calendar" class="slds-card"></div>
+
+</aura:component>
