@@ -17,5 +17,9 @@
         <members>Event</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>Contact-Contact Layout</members>
+        <name>Layout</name>
+    </types>
     <version>44.0</version>
 </Package>
