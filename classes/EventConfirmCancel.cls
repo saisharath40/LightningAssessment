@@ -1,7 +1,7 @@
 @RestResource(urlMapping='/Events/*')
 global with sharing class EventConfirmCancel {
     @HttpPatch
-    global static ID updateCaseFields() {
+    global static ID updateEvent() {
         RestRequest request = RestContext.request;
         String confirmParam=RestContext.request.params.get('Confirm');
         String eventId='';
