@@ -64,8 +64,7 @@
                 var data= response.getReturnValue();
                 var jsonArr = this.formatFullCalendarData(component,response.getReturnValue());
                 component.set("v.Objectlist",jsonArr);
-                 this.loadDataToCalendar(component,jsonArr);
-           
+                 this.loadDataToCalendar(component,jsonArr); 
             } else if (state === "ERROR") {
                                  
             }
