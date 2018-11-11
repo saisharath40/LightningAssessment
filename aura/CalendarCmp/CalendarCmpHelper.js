@@ -66,7 +66,7 @@
                 component.set("v.Objectlist",jsonArr);
                  this.loadDataToCalendar(component,jsonArr); 
             } else if (state === "ERROR") {
-                                 
+                console.log('error');          
             }
         });
         
