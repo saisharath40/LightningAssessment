@@ -8,7 +8,6 @@
                            )}" afterScriptsLoaded="{!c.afterScriptsLoaded}"
                  />   
     <aura:attribute name='Objectlist' type='Object[]'/>
-
     <div id="calendar" class="slds-card"></div>
 
 </aura:component>
